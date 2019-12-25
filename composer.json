@@ -12,7 +12,8 @@
     "require": {
         "php": ">=7",
         "illuminate/support": "^5.5|^6",
-        "dompdf/dompdf": "dev-develop"
+        "dompdf/dompdf": "dev-develop",
+        "yasapurnama/laravel-dompdf": "dev-master"
     },
 
     "autoload": {
