@@ -1,6 +1,6 @@
 {
-    "name": "barryvdh/laravel-dompdf",
-    "description": "A DOMPDF Wrapper for Laravel",
+    "name": "yasapurnama/laravel-dompdf",
+    "description": "A DOMPDF Wrapper for Laravel. Forked from barryvdh/laravel-dompdf",
     "license": "MIT",
     "keywords": ["laravel", "dompdf", "pdf"],
     "authors": [
@@ -10,14 +10,14 @@
         }
     ],
     "require": {
-        "php": ">=7",
+        "php": ">=7.4",
         "illuminate/support": "^5.5|^6",
-        "dompdf/dompdf": "^0.8"
+        "dompdf/dompdf": "dev-master"
     },
 
     "autoload": {
         "psr-4": {
-            "Barryvdh\\DomPDF\\": "src"
+            "yasapurnama\\DomPDF\\": "src"
         }
     },
     "extra": {
@@ -26,10 +26,10 @@
         },
         "laravel": {
             "providers": [
-                "Barryvdh\\DomPDF\\ServiceProvider"
+                "yasapurnama\\DomPDF\\ServiceProvider"
             ],
             "aliases": {
-                "PDF": "Barryvdh\\DomPDF\\Facade"
+                "PDF": "yasapurnama\\DomPDF\\Facade"
             }
         }
     },
