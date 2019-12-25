@@ -17,7 +17,7 @@
 
     "autoload": {
         "psr-4": {
-            "Barryvdh\\DomPDF\\": "src"
+            "yasapurnama\\DomPDF\\": "src"
         }
     },
     "extra": {
@@ -26,10 +26,10 @@
         },
         "laravel": {
             "providers": [
-                "Barryvdh\\DomPDF\\ServiceProvider"
+                "yasapurnama\\DomPDF\\ServiceProvider"
             ],
             "aliases": {
-                "PDF": "Barryvdh\\DomPDF\\Facade"
+                "PDF": "yasapurnama\\DomPDF\\Facade"
             }
         }
     },
